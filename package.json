@@ -1,0 +1,31 @@
+{
+  "name": "express-deresubmission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v ./tests/*.test.js",
+    "test:cov": "nyc ava -v ./tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafeyang/express-deresubmission.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafeyang/express-deresubmission/issues"
+  },
+  "homepage": "https://github.com/hafeyang/express-deresubmission#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "express": "^4.16.2",
+    "ioredis": "^3.2.1",
+    "nyc": "^11.3.0",
+    "supertest": "^3.0.0"
+  }
+}
